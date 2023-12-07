@@ -1,9 +1,10 @@
-
+// Variables
 
 var user = 0;
 var computer = 0;
 var draw = 0;
 
+// Game
 
 function play() {
 
@@ -65,9 +66,13 @@ function play() {
 
 }
 
+// Repeat Game 3 Times
+
 for (let i = 0; i < 3; i++) {
     play();
 }
+
+// Final Score
 
 if (user > computer) {
     alert("You win the game!");
@@ -76,8 +81,4 @@ if (user > computer) {
 } else {
     alert("It's a tie!");
 }
-
-user = 0;
-computer = 0;
-draw = 0;
 
