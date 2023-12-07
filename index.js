@@ -4,6 +4,10 @@ var user = 0;
 var computer = 0;
 var draw = 0;
 
+// Timeout
+
+const myTimeout = setTimeout(play, 5000);
+
 // Game
 
 function play() {
